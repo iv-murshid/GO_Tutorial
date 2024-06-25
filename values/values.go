@@ -1,8 +1,8 @@
-package main
+package values
 
 import "fmt"
 
-func main() {
+func Values() {
 	fmt.Println("strings "+"are "+"added")
 	fmt.Println("2 + 3 = " , 2+3)
 	fmt.Println("7.0/2.0 =", 7.0/2.0)

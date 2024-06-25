@@ -1,8 +1,8 @@
-package main
+package non_Blocking_channels
 
 import "fmt"
 
-func main() {
+func Non_Blocking_Channel() {
     messages := make(chan string)
     signals := make(chan bool)
 

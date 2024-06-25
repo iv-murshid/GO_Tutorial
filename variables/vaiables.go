@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func Variables() {
 
     var a = "ini"
     fmt.Println(a)

@@ -1,8 +1,8 @@
-package main
+package for_loop
 
 import "fmt"
 
-func main() {
+func For_loop() {
 
     i := 1
     for i <= 3 {

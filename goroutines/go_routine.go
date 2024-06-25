@@ -1,4 +1,4 @@
-package main
+package go_routine
 
 import (
     "fmt"
@@ -11,7 +11,7 @@ func f(from string) {
     }
 }
 
-func main() {
+func Go_routine() {
 
     f("direct")
 

@@ -1,8 +1,8 @@
-package main
+package close_channel
 
 import "fmt"
 
-func main() {
+func Close_channel() {
     jobs := make(chan int, 5)
     done := make(chan bool)
 

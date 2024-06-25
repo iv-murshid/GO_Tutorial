@@ -1,4 +1,4 @@
-package main
+package variadic_function
 
 import "fmt"
 
@@ -12,7 +12,7 @@ func sum(nums ...int) {
     fmt.Println(total)
 }
 
-func main() {
+func Var_func() {
 
     sum(1, 2)
     sum(1, 2, 3)

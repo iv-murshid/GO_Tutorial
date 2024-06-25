@@ -1,4 +1,4 @@
-package main
+package errors
 
 import (
     "errors"
@@ -26,7 +26,7 @@ func makeTea(arg int) error {
     return nil
 }
 
-func main() {
+func Errors() {
     for _, i := range []int{7, 42} {
 
         if r, e := f(i); e != nil {

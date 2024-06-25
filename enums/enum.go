@@ -1,4 +1,4 @@
-package main
+package enums
 
 import "fmt"
 
@@ -22,7 +22,7 @@ func (ss ServerState) String() string {
     return stateName[ss]
 }
 
-func main() {
+func Enums() {
     ns := transition(StateIdle)
     fmt.Println(ns)
 

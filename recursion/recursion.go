@@ -1,4 +1,4 @@
-package main
+package recursion
 
 import "fmt"
 
@@ -9,7 +9,7 @@ func fact(n int) int {
     return n * fact(n-1)
 }
 
-func main() {
+func Recursion() {
     fmt.Println(fact(7))
 
     var fib func(n int) int

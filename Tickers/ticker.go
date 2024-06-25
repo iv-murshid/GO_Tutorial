@@ -1,26 +1,26 @@
-package main
+package Tickers
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func Ticker() {
 	t := time.NewTicker(500 * time.Millisecond)
 	done := make(chan bool)
 	go func() {
 		for {
-			select{
+			select {
 			case <-done:
 				return
 			case ti := <-t.C:
-				fmt.Println("Ticked after ",ti)
+				fmt.Println("Ticked after ", ti)
 			}
 		}
 	}()
 
 	time.Sleep(1600 * time.Millisecond)
-	done <- true;
+	done <- true
 	t.Stop()
 	fmt.Println("Ticker")
 	close(done)

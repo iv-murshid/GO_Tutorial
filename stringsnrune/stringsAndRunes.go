@@ -1,11 +1,11 @@
-package main
+package stringsnrune
 
 import (
     "fmt"
     "unicode/utf8"
 )
 
-func main() {
+func Stringsnrune() {
 
     const s = "สวัสดี"
 

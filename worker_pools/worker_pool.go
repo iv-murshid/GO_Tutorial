@@ -1,4 +1,4 @@
-package main
+package Worker_pools
 
 import (
     "fmt"
@@ -14,7 +14,7 @@ func worker(id int, jobs <-chan int, results chan<- int) {
     }
 }
 
-func main() {
+func Worker_pool() {
 
     const numJobs = 5
     jobs := make(chan int, numJobs)

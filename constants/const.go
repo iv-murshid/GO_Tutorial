@@ -1,4 +1,4 @@
-package main
+package constants
 
 import (
     "fmt"
@@ -7,7 +7,7 @@ import (
 
 const s string = "constant"
 
-func main() {
+func Constants() {
     fmt.Println(s)
 
     const n = 400000

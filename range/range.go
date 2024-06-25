@@ -1,8 +1,8 @@
-package main
+package Range
 
 import "fmt"
 
-func main() {
+func Range() {
 
     nums := []int{2, 3, 4}
     sum := 0

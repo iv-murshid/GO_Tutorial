@@ -1,8 +1,8 @@
-package main
+package buffered_channel
 
 import "fmt"
 
-func main() {
+func Buffered_channel() {
 
     messages := make(chan string, 2)
 
